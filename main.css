@@ -1,0 +1,33 @@
+:root { 
+    --base: #40d50e;
+    --espacamento: 10px;
+    --opacidade: 10px;
+    --escalacinza: 0%;
+    --tonalidade: 0deg;
+}
+  
+img {
+    padding: var(--espacamento);
+    height: 60vh;
+    background: var(--base);
+    filter: blur(var(--opacidade)) 
+    grayscale(var(--escalacinza)) 
+    hue-rotate(var(--tonalidade));
+}
+  
+body {
+    text-align: center;
+    background: #0a0549;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+  
+.controle {
+    margin-bottom: 50px;
+}
+  
+input {
+    width:100px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Edição de Fotos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h2>EDITE A FOTO:</h2>
+    <div class="controle">
+    <label for="espacamento">Espaçamento:</label>
+    <input id="espacamento" type="range" name="espacamento" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="opacidade">Opacidade:</label>
+    <input id="opacidade" type="range" name="opacidade" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="escalacinza">Escala de Cinza:</label>
+    <input id="escalacinza" type="range" name="escalacinza" min="0" max="100" value="0" data-sizing="%">
+
+    <label for="tonalidade">Tonalidade: </label>
+    <input id="tonalidade" type="range" name="tonalidade" min="0" max="360" value="0" data-sizing="deg">
+
+    <label for="base">Cor de Base: </label>
+    <input id="base" type="color" name="base" value="#40d50e">
+    </div>
+    <img src="clau.JPG">
+    <script src='main.js'></script>
+</body>
+</html>
